@@ -1,0 +1,136 @@
+/*CSS PARA A PÁGINA INDEX*/
+
+/*titulo*/
+#titulo {
+    color: #244f6d;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/**descrição*/
+#p1 {
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+/*link formulario*/
+#link-formulario {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #3241b5;
+    padding: 10px;
+    width: 150px;
+    margin: 0 auto;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+
+
+/*CSS PARA O FORMULÁRIO*/
+
+/* Corpo da página */
+#pagina {
+    font-family: Arial, sans-serif;
+    background-color: #ebebeb;
+    padding: 20px;
+    color: #000000;
+}
+
+/* Título principal */
+#titulo-principal {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #244f6d;
+}
+
+/* Formulário principal */
+#formulario-completo {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Fieldsets */
+#bloco1,
+#bloco2,
+#bloco3 {
+    border: 2px solid #0713ff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+#formulario-completo label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Inputs e Selects */
+#formulario-completo input[type="text"],
+#formulario-completo input[type="email"],
+#formulario-completo input[type="tel"],
+#formulario-completo input[type="url"],
+#formulario-completo input[type="date"],
+#formulario-completo input[type="number"],
+
+#formulario-completo select {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #200081;
+}
+
+/* Radio e Checkbox */
+#formulario-completo input[type="radio"],
+#formulario-completo input[type="checkbox"] {
+    margin-right: 10px;
+    margin-top: 8px;
+}
+
+/* Botões */
+#botao-enviar,
+#botao-resetar {
+    background-color: #2e719e;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+/* Links */
+#link-voltar {
+    display: block;
+    background-color: #3241b5;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 200px;
+}
+
+#link-topo {
+    display: block;
+    background-color: #104162;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 200px;
+}
